@@ -5,7 +5,7 @@ const App = () => {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text style={{fontSize: 24, fontWeight: '700'}}>
-        Hello React Native Application
+        Hello React Native Applications
       </Text>
     </View>
   );
