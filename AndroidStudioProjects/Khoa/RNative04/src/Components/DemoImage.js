@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import {View, Text, Image} from 'react-native';
-import Corgi from './corgi.jpeg';
+import Corgi from './corgi.jpg';
 
 export default class DemoImage extends Component {
   render() {
     return (
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-        <Text> Demo Image Component</Text>
-        {/* Internal Image */}
-        <Image source={require('./corgi.jpeg')} />
-        <Image source={Corgi} />
+          <Text style={{textAlign: 'center', fontSize:30,fontWeight: 'bold'}}> Demo Image Component</Text>
+          {/* Internal Image */}
+          <Image source={require('./corgi.jpg')} />
+          <Image source={Corgi} />
         {/* External Image */}
         <Image
           source={{
