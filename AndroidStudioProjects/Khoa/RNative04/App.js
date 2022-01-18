@@ -1,6 +1,6 @@
 	/* eslint-disable react-native/no-inline-styles */
   import React, {Fragment} from 'react';
-import DemoImage from './src/Components/DemoImage';
+  import DemoImage from './src/Components/DemoImage';
   // import Stateful from './src/Component/stateful';
   // import StateLess from './src/Component/Stateless';
   // import DemoImage from './src/Component/DemoImage';
