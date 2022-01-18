@@ -41,14 +41,16 @@ const styles = StyleSheet.create({
     green: {
         backgroundColor: '#A1c99A',
         flex : 1,
-        borderRadius:15,
-        marginBottom:10,
+        borderBottomEndRadius:20,
+        borderBottomStartRadius:20,
+        marginBottom:20,
         justifyContent:'space-around',
     },
     purple: {
         backgroundColor: '#c8c8fA',
         flex : 1,
-        borderRadius:20,
+        borderTopStartRadius:20,
+        borderTopEndRadius:20,
         flexDirection: 'row',
         flexWrap: 'wrap',
         alignContent: 'space-around',
@@ -63,8 +65,8 @@ const styles = StyleSheet.create({
     blue:{
         backgroundColor: '#4f82c0',
         borderRadius:15,
-        width: '38%',
-        height: '40%',
+        width: '35%',
+        height: '35%',
         margin :10,
     },
     textInfo:{

@@ -8,13 +8,14 @@ import Stateful from './src/Components/Stateful';
   // import DemoInput from './src/Component/DemoTextInput';
 import UI from './src/Components/UI';
 import BaiTapBon from './src/Components/BaiTapBon'
+import { View } from 'react-native';
   
   const App = () => {
+    
     return (
         <Fragment>
-          <BaiTapBon />
+            <BaiTapBon />
         </Fragment>
-    
     );
   };
   
