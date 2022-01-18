@@ -12,9 +12,6 @@ import BaiTapBon from './src/Components/BaiTapBon'
   const App = () => {
     return (
         <Fragment>
-        {/* <StateFull />
-        <StateLess /> */}
-        {/* <DemoImage /> */}
           <BaiTapBon />
         </Fragment>
     
