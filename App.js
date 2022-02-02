@@ -8,13 +8,17 @@ import DemoImage from './src/Components/DemoImage';
 import UI from './src/Components/UI';
 import BindingData from './src/HolderComponent/BindingData';
 import BaiTapBuoi5 from './src/HolderComponent/BaiTapBuoi5';
-
+import DemoProps from './src/Props/DemoProps';
+import DemoScrollView from './src/Props/DemoScrollView';
+import DemoFlatList from './src/Props/DemoFlatList';
+import DemoSection from './src/Props/DemoSection';
+import ExamRenderWithMap from './src/Props/ExamRenderWithMap';
 const App = () => {
-  return (
-    <Fragment>
-      <BaiTapBuoi5 />
-    </Fragment>
-  );
+    return (
+        <Fragment>
+            <Text>Hôm nay là một ngày đẹp trời !</Text>r
+        </Fragment>
+    );
 };
 
 export default App;
